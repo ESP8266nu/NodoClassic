@@ -1,0 +1,46 @@
+R787:
+- WebApp communicatie hersteld.
+
+R786:
+- Aanpassing aan RawSignalSave. Verzenden van tijd=0 gaf een puls van 16mSec. a.g.v. niet coorect opgeloste bug in delayMicroSeconds(); 
+- RawSignalWrite schreef aantal repeats niet correct weg. Deze kreeg altijd de waarde 1
+- Als rawsignalreceive=on, dan worden codes ook opgeslagen op SDCard.
+- RawSignalReceive heeft optioneel als 2e parameter On/Off waarmee kan worden aangegeven of een signaal pas doorkomt na ontvangst herhaling.
+
+R785:
+- Type uit #define gehaald.
+
+R784:
+- Issue 901: Time events, sourceunit = 0
+- #define CFG_RAWSIGNAL toegevoegd.
+- #define CFG_SERIAL toegevoegd.
+- Scripting syntax voor %...% vervangen door [...]. Dit analoog aan de WebApp.
+- Sendto doet geen poging meer om niet bekende Nodo te bereiken. Kost onnodig tijd.
+
+R783:
+- Issue 898: Kunnen disablen van 433 routines/poorten (Aanpassing #defines om eventueel geheugen te besparen door delen code niet mee te compileren)
+    #define CFG_CLOCK 
+    #define CFG_SOUND
+    #define CFG_WIRED
+    #define CFG_I2C  
+    #define CFG_SLEEP
+    #define CFG_RAWSIGNAL
+
+R782:
+- Aanpassing timings SendTo: toename betrouwbaarheid door meer tijd tussen omschakelen zenden/ontvangen
+- diverse kleine aanpassingen onder de motorkap.
+
+R780:
+- Bug: SendTo Fast werkte niet altijd correct.
+- Issue 789: Nesting van file executes afvangen
+- Issue 818: Alarm op WorkDays (WKD) en WeekendDays (WND) (Tevens toegepast op Time events in de eventlist).
+- Issue 863: Nodo ziet geen RF units meer Build is R746.
+- Issue 864: Fade proces van plugin 23 wordt afgebroken.
+- Issue 870: TimerRandom.
+- Issue 893: BreakOn binnen een script.
+- Commando 'VariableToggle' vervallen. Maakt nu deel uit als optie voor 'FlagSet' 
+- Toegevoegd commando 'FlagSet <VlagNummer>,<State>', Vlagnummer is een waarde 1..32 of 'All'. State=0,1,'Toggle' . Vlaggen worden op alle Nodo's globaal beheerd. Bij 'All' geen event gegenereerd.
+- Toegevoegd event 'Flag'
+- Toegevoegd commando 'BreakOnFlag <VlagNummer>,<State>'
+- Toegevoegd commando 'FlagSync', geen parameters. Deze zorgt er voor dat alle nodo's in het landschap de vlaggen over neemt zoals die op deze nodo zijn ingesteld.   
+- Toegevoegd commando 'VariablePut <Variabele>, <Unit>, <VariabeleBestemming>'

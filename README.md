@@ -12,10 +12,10 @@ So patchlevel is now R78.
 
 Some additional plugins in this repository:
 
-Plugin 092  Nodo Communication with local UDP/W5100, remote ESP Easy as bridge
-Plugin 093  Nodo Communication with local and remote ESP Easy as bridge
-Plugin 094  Limited IR receive/send for Samsumg, Sony, Philips, works on Nodo Small!
-Plugin 095  SleepExternal
-Plugin 096  Xiron temp/hum (must change SIGNAL_TIMEOUT to 3 to get this working)
-Plugin 098  DomoticzHTTP support
-Plugin 099  Nodotool for Nodo Small debugging/programming
+* Plugin 092  Nodo Communication with local UDP/W5100, remote ESP Easy as bridge
+* Plugin 093  Nodo Communication with local and remote ESP Easy as bridge
+* Plugin 094  Limited IR receive/send for Samsumg, Sony, Philips, works on Nodo Small!
+* Plugin 095  SleepExternal
+* Plugin 096  Xiron temp/hum (must change SIGNAL_TIMEOUT to 3 to get this working)
+* Plugin 098  DomoticzHTTP support
+* Plugin 099  Nodotool for Nodo Small debugging/programming

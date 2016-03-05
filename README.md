@@ -20,6 +20,9 @@ Some additional plugins in this repository:
 * Plugin 098  DomoticzHTTP support
 * Plugin 099  Nodotool for Nodo Small debugging/programming
 
+# Nodotool
+A small serial communication tool for Nodo Small. It can be used to debug Nodo events on a Nodo Small through its serial port. It can also be used to check/write eventlists. Not fully tested but the basic stuff works. Runs on Windows using dotnet framework 2.0
+
 # NodoTiny
 An ATTiny85 based Nodo Compatible sensor that can run on batteries for more then a year...
 

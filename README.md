@@ -19,3 +19,14 @@ Some additional plugins in this repository:
 * Plugin 096  Xiron temp/hum (must change SIGNAL_TIMEOUT to 3 to get this working)
 * Plugin 098  DomoticzHTTP support
 * Plugin 099  Nodotool for Nodo Small debugging/programming
+
+# NodoTiny
+An ATTiny85 based Nodo Compatible sensor that can run on batteries for more then a year...
+
+# TinyKakuReceiver
+An ATTiny85 based device that emulates a Kaku dimmer.
+
+# RFLinkNRF
+A customized RFlink that can receive data from Nodo NRF slaves using the NRF24L01 radio, in addition to the standard 433 MHz reception.
+
+

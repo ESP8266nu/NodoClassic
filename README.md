@@ -8,7 +8,7 @@ I'm still using several Nodo units, connected to ESP/Domoticz and the Small unit
 A feature that is lacking in the original codebase.
 
 This repository is based on Nodo 3.7, R765 since this has been the most stable Nodo edition in my own home. Some patches have been applied, just before the major changes on Nodo 3.8.
-So patchlevel is now R78.
+So patchlevel is now R787.
 
 Some additional plugins in this repository:
 

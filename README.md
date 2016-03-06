@@ -1,6 +1,6 @@
 # NodoClassic
 
-Nodo Project release for historic reasons.
+This repository contains some legacy Nodo Projects.
 
 I've cleaned up my dropbox account and this repository provides access to code and tools that may still be in use somewhere.
 
